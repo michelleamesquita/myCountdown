@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
         calendar.set(Calendar.YEAR, 2023);
         calendar.set(Calendar.MONTH, 8);
         calendar.set(Calendar.DAY_OF_MONTH, 16);
+        calendar.set(Calendar.HOUR, 18);
+        calendar.set(Calendar.MINUTE, 00);
+        calendar.set(Calendar.SECOND, 00);
 
         String pickerDateString = DateFormat.getDateInstance(DateFormat.FULL).format(calendar.getTime());
         TextView tvDatePicker = findViewById(R.id.textViewContent);
